@@ -1,9 +1,9 @@
-PWD /media/nadjib/8fbaf716-bdf0-4423-8018-c7c1d990a848/nadjib/Documents/Etude/M2/22-23/Archi/tp
+PWD /media/nadjib/8fbaf716-bdf0-4423-8018-c7c1d990a848/nadjib/Documents/Etude/M2/22-23/Archi/ARCHI
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /media/nadjib/8fbaf716-bdf0-4423-8018-c7c1d990a848/nadjib/Documents/Etude/M2/22-23/Archi/tp/index.tex
+INPUT /media/nadjib/8fbaf716-bdf0-4423-8018-c7c1d990a848/nadjib/Documents/Etude/M2/22-23/Archi/ARCHI/index.tex
 OUTPUT index.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -664,6 +664,13 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
+INPUT ./archiCorba/CORBA-Architektur.png
+INPUT ./archiCorba/CORBA-Architektur.png
+INPUT archiCorba/CORBA-Architektur.png
+INPUT ./archiCorba/CORBA-Architektur.png
+INPUT ./archiCorba/CORBA-Architektur.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
 INPUT ./IDL/idl.tex
 OUTPUT IDL/idl.aux
 INPUT ./IDL/idl.tex
@@ -690,7 +697,10 @@ INPUT ./index.out
 INPUT ./index.out
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb
