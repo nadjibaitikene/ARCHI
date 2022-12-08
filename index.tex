@@ -1,0 +1,28 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[OT1]{fontenc}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{import}
+\usepackage{pifont}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+
+\pagestyle{fancy}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    % pdfpagemode=FullScreen,
+    }
+
+\begin{document}
+    \include{pdg/pagedegarde.tex}
+    \include{tableofcontent.tex}
+    \include{archiCorba/archiCorba.tex}
+    \include{IDL/idl.tex}
+\end{document}
