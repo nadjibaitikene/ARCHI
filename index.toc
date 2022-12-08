@@ -5,4 +5,5 @@
 \contentsline {section}{\numberline {1.3}Objets distribués de CORBA}{3}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Composants logiciels}{4}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Le modèle objet client-serveur CORBA}{4}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Interface Definition Language (IDL)}{5}{chapter.2}%
+\contentsline {section}{\numberline {1.6}Architecture CORBA}{5}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Interface Definition Language (IDL)}{6}{chapter.2}%

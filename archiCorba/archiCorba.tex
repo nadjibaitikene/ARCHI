@@ -54,8 +54,43 @@
         \caption{CORBA Architechtur}
     \end{figure}
 
-        
+    \section{Architecture CORBA}
 
+        La relation entre objets distribués est une relation client-serveur. Le serveur fournit une interface distante. Le client invoque une interface distante. Le client peut lui-même jouer le rôle de serveur s'il implante une interface qui peut être invoquée à distance par d'autres objets. 
+        \subsection*{Coté client}
+        Le client connaît l'interface d'un objet spécifique (il dispose de l'IDL). Le client possède une représentation de l'objet distant appelée talon ("stub") générée par l'IDL. Le talon transmet la requête à l'objet distant via le bus logiciel (ORB). Il s'agit d'une représentation de l'objet distant responsable de la transmission d'une invocation de méthode du talon vers l'objet distant. Il ne s'agit pas d'une copie de l'objet distant.
+            A travers le talon le client voit l'interface de l'objet sans savoir où est l'objet et sans connaître le langage de programmation utilisé pour son implantation.
+            
+            En pratique, le client :
+            \begin{enumerate}
+                \item créé une instance locale d'ORB
+                \item récupère la référence du serveur de noms
+                \item récupère la référence de l'objet
+                \item invoque la méthode sur l'objet distant
+            \end{enumerate}
+        \subsection*{Coté serveur}
+            L'ORB utilise un squelette de code pour traduire l'invocation distante en un appel de méthode sur l'objet local. Le squelette traduit l'appel et les paramètres dans le format de l'implantation spécifique et appelle la méthode invoquée.
+            Au retour de la méthode, les résultats ( ou erreurs ) sont traduits par le squelette et renvoyés au client via l'ORB.
+            Communication entre ORB, protocoles réseaux
+            Tout bus à la norme CORBA 2.0 doit fournir les protocoles GIOP et IIOP.
+            
+            GIOP est un protocole générique. Il fournit :
+            \begin{itemize}[label= $\bullet$]
+                \item une représentation commune des données : CDR (Common Data Representation)
+                \item un format de référence d'objet interopérable : IOR (Interoperable Object Reference)
+                \item un ensemble de messages de transport de requêtes aux objets (request, reply, ...)
+            \end{itemize}
+
+            \par Les ORBs partagent un protocole commun IIOP ((Internet Inter ORB Protocol), implantation de GIOP sur TCP/IP et donc de l'internet. Ce protocole définit comment les ORBs (répondant à la spécification CORBA) se transmettent de l'information.\\
+            
+            Autres services fournis par les ORBs :
+            \begin{itemize}[label= $\bullet$]
+                \item Recherche d'objets par leur nom
+                \item Maintenance d'objets persistants
+                \item Support pour le traitement transactionnel ...
+            \end{itemize}
+
+            
 
     
     
