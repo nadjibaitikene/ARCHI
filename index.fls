@@ -1,9 +1,9 @@
-PWD /media/nadjib/8fbaf716-bdf0-4423-8018-c7c1d990a848/nadjib/Documents/Etude/M2/22-23/Archi/tp
+PWD /media/nadjib/8fbaf716-bdf0-4423-8018-c7c1d990a848/nadjib/Documents/Etude/M2/22-23/Archi/ARCHI
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /media/nadjib/8fbaf716-bdf0-4423-8018-c7c1d990a848/nadjib/Documents/Etude/M2/22-23/Archi/tp/index.tex
+INPUT /media/nadjib/8fbaf716-bdf0-4423-8018-c7c1d990a848/nadjib/Documents/Etude/M2/22-23/Archi/ARCHI/index.tex
 OUTPUT index.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
