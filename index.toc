@@ -1,4 +1,4 @@
-\babel@toc {french}{}
+\babel@toc {french}{}\relax 
 \contentsline {chapter}{\numberline {1}L'Architechture CORBA}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Qu'est ce que le cadre CORBA ?}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Les avantages de CORBA}{3}{section.1.2}%
@@ -6,7 +6,7 @@
 \contentsline {section}{\numberline {1.4}Composants logiciels}{4}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Le modèle objet client-serveur CORBA}{4}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Architecture CORBA}{5}{section.1.6}%
-\contentsline {chapter}{\numberline {2}(IDL)}{6}{chapter.2}%
+\contentsline {chapter}{\numberline {2}IDL}{6}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Définition du langage IDL:}{6}{section.2.1}%
 \contentsline {section}{\numberline {2.2}une procédure IDL:}{6}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Structure syntaxique d'un module IDL:}{7}{section.2.3}%
