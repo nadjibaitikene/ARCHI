@@ -1,6 +1,6 @@
-\chapter{L'Architechture CORBA}
+\section{L'Architechture CORBA}
 
-    \section{Qu'est ce que le cadre CORBA ?}
+    \subsection{Qu'est ce que le cadre CORBA ?}
 
         \par CORBA est l’acronyme de \textit{\textbf{C}ommon \textbf{O}bject \textbf{R}equest \textbf{B}roker \textbf{A}rchitecture}. Il s’agit d’un standard développé en 1992 par Object Management Group (ou OMG) ; un consortium de plusieurs centaines d’entreprises dédiées à la construction de matériel informatique et l’édition de logiciels.\\
         L’objectif est de développer des applications distribuées indépendantes de la plate-forme et du langage à travers des principes de conception orientés objet.\\
@@ -8,7 +8,7 @@
         Corba repose sur la notion de bus logiciel (Object Request Broker).
         En Corba, tout est objet. On bénéficie donc des mécanismes d'héritage, polymorphisme et encapsulation.
 
-    \section{Les avantages de CORBA}
+    \subsection{Les avantages de CORBA}
 
         \begin{itemize}[label= \ding{51}]
             \item \textbf{Interopérabilité: }Les objets Corba communiquent par l'intermédiaire du protocole IIOP (Internet Inter-ORB Protocol). Ce protocole permet la communication entre entités quelconques supportant le protocole TCP/IP.
@@ -16,16 +16,16 @@
             \item \textbf{flexibilité du développement: }Les services rendus par les objets sont définis par leur interface qui tient lieu de contrat entre l'utilisateur et le fournisseur du service. Les parties définition et implantation d'un objet sont totalement dissociées.
         \end{itemize}
 
-    \section{Objets distribués de CORBA}
+    \subsection{Objets distribués de CORBA}
 
         \begin{itemize}
             \item  Localisation indifférente dans le réseau;
             \item Sur des systèmes hétérogènes;
             \item Implantés dans des langages différents.
         \end{itemize}
-\pagebreak
+
     
-    \section{Composants logiciels}
+    \subsection{Composants logiciels}
 
         \begin{itemize}
             \item  Accédés par n'importe quel client;
@@ -34,7 +34,7 @@
             \item L'interface est spécifiée dans un langage standard l'IDL.
         \end{itemize}
 
-    \section{Le modèle objet client-serveur CORBA}
+    \subsection{Le modèle objet client-serveur CORBA}
 
     Il est fondé sur une entité virtuelle, l'objet CORBA, gérée par le bus CORBA. Chaque application peut exporter ses services sous la forme d'objets CORBA.
     La coopération client-serveur se déroule de la manière suivante :
@@ -46,7 +46,6 @@
         \item L'objet CORBA est associé à un objet d'implantation
         \item Le serveur détient l'objet d'implantation qui code l'objet CORBA (cette implantation pouvant évoluer au cours du temps) et gère son état temporaire.
     \end{enumerate}
-    \vfill
 
     \begin{figure}[h]
         \centering
@@ -54,10 +53,10 @@
         \caption{CORBA Architechtur}
     \end{figure}
 
-    \section{Architecture CORBA}
+    \subsection{Architecture CORBA}
 
         La relation entre objets distribués est une relation client-serveur. Le serveur fournit une interface distante. Le client invoque une interface distante. Le client peut lui-même jouer le rôle de serveur s'il implante une interface qui peut être invoquée à distance par d'autres objets. 
-        \subsection*{Coté client}
+        \subsubsection*{Coté client}
         Le client connaît l'interface d'un objet spécifique (il dispose de l'IDL). Le client possède une représentation de l'objet distant appelée talon ("stub") générée par l'IDL. Le talon transmet la requête à l'objet distant via le bus logiciel (ORB). Il s'agit d'une représentation de l'objet distant responsable de la transmission d'une invocation de méthode du talon vers l'objet distant. Il ne s'agit pas d'une copie de l'objet distant.
             A travers le talon le client voit l'interface de l'objet sans savoir où est l'objet et sans connaître le langage de programmation utilisé pour son implantation.
             
@@ -88,9 +87,4 @@
                 \item Recherche d'objets par leur nom
                 \item Maintenance d'objets persistants
                 \item Support pour le traitement transactionnel ...
-            \end{itemize}
-
-            
-
-    
-    
+            \end{itemize} 
