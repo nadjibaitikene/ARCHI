@@ -1,4 +1,4 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
-[1] Config.pm:309> INFO - Logfile is 'index.blg'
-[98] biber:340> INFO - === Sat Dec 10, 2022, 21:47:52
-[120] Biber.pm:418> INFO - Reading 'index.bcf'
+[0] Config.pm:309> INFO - Logfile is 'index.blg'
+[106] biber:340> INFO - === Thu Feb  9, 2023, 17:22:53
+[129] Biber.pm:418> INFO - Reading 'index.bcf'
